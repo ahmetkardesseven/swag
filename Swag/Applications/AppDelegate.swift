@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  swag
+//  Swag
 //
 //  Created by ahmetkardesseven on 22.12.2023.
 //

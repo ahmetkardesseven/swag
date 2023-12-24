@@ -9,33 +9,21 @@
 /* Begin PBXBuildFile section */
 		BE70619A2B35F6E000D75B5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7061992B35F6E000D75B5A /* AppDelegate.swift */; };
 		BE70619C2B35F6E000D75B5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE70619B2B35F6E000D75B5A /* SceneDelegate.swift */; };
-		BE70619E2B35F6E000D75B5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE70619D2B35F6E000D75B5A /* ViewController.swift */; };
-		BE7061A12B35F6E000D75B5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE70619F2B35F6E000D75B5A /* Main.storyboard */; };
 		BE7061A32B35F6E100D75B5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE7061A22B35F6E100D75B5A /* Assets.xcassets */; };
 		BE7061A62B35F6E100D75B5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE7061A42B35F6E100D75B5A /* LaunchScreen.storyboard */; };
-		BE7061DC2B35F9F000D75B5A /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7061D62B35F9F000D75B5A /* LoginPresenter.swift */; };
-		BE7061DD2B35F9F000D75B5A /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7061D72B35F9F000D75B5A /* LoginRouter.swift */; };
-		BE7061DE2B35F9F000D75B5A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7061D82B35F9F000D75B5A /* LoginViewController.swift */; };
-		BE7061DF2B35F9F000D75B5A /* LoginProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7061D92B35F9F000D75B5A /* LoginProtocols.swift */; };
-		BE7061E02B35F9F000D75B5A /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7061DA2B35F9F000D75B5A /* LoginInteractor.swift */; };
-		BE7061E12B35F9F000D75B5A /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE7061DB2B35F9F000D75B5A /* LoginViewController.xib */; };
+		BE977D372B37939E0027F68C /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE977D362B37939E0027F68C /* InputView.swift */; };
+		BE977D392B3793A70027F68C /* InputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE977D382B3793A70027F68C /* InputView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BE7061962B35F6E000D75B5A /* swag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE7061962B35F6E000D75B5A /* Swag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE7061992B35F6E000D75B5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE70619B2B35F6E000D75B5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BE70619D2B35F6E000D75B5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BE7061A02B35F6E000D75B5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE7061A22B35F6E100D75B5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE7061A52B35F6E100D75B5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE7061A72B35F6E100D75B5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BE7061D62B35F9F000D75B5A /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
-		BE7061D72B35F9F000D75B5A /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
-		BE7061D82B35F9F000D75B5A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		BE7061D92B35F9F000D75B5A /* LoginProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProtocols.swift; sourceTree = "<group>"; };
-		BE7061DA2B35F9F000D75B5A /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
-		BE7061DB2B35F9F000D75B5A /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		BE977D362B37939E0027F68C /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		BE977D382B3793A70027F68C /* InputView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InputView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +40,7 @@
 		BE70618D2B35F6E000D75B5A = {
 			isa = PBXGroup;
 			children = (
-				BE7061982B35F6E000D75B5A /* swag */,
+				BE7061982B35F6E000D75B5A /* Swag */,
 				BE7061972B35F6E000D75B5A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -60,45 +48,71 @@
 		BE7061972B35F6E000D75B5A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BE7061962B35F6E000D75B5A /* swag.app */,
+				BE7061962B35F6E000D75B5A /* Swag.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BE7061982B35F6E000D75B5A /* swag */ = {
+		BE7061982B35F6E000D75B5A /* Swag */ = {
 			isa = PBXGroup;
 			children = (
+				BE7061E22B35FA6700D75B5A /* Applications */,
 				BE7061D52B35F9C500D75B5A /* Modules */,
-				BE7061992B35F6E000D75B5A /* AppDelegate.swift */,
-				BE70619B2B35F6E000D75B5A /* SceneDelegate.swift */,
-				BE70619D2B35F6E000D75B5A /* ViewController.swift */,
-				BE70619F2B35F6E000D75B5A /* Main.storyboard */,
-				BE7061A22B35F6E100D75B5A /* Assets.xcassets */,
-				BE7061A42B35F6E100D75B5A /* LaunchScreen.storyboard */,
-				BE7061A72B35F6E100D75B5A /* Info.plist */,
 			);
-			path = swag;
+			path = Swag;
 			sourceTree = "<group>";
 		};
 		BE7061D52B35F9C500D75B5A /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				BE7061D62B35F9F000D75B5A /* LoginPresenter.swift */,
-				BE7061D72B35F9F000D75B5A /* LoginRouter.swift */,
-				BE7061D82B35F9F000D75B5A /* LoginViewController.swift */,
-				BE7061D92B35F9F000D75B5A /* LoginProtocols.swift */,
-				BE7061DA2B35F9F000D75B5A /* LoginInteractor.swift */,
-				BE7061DB2B35F9F000D75B5A /* LoginViewController.xib */,
+				BE977D272B3789890027F68C /* Login */,
 			);
 			path = Modules;
+			sourceTree = "<group>";
+		};
+		BE7061E22B35FA6700D75B5A /* Applications */ = {
+			isa = PBXGroup;
+			children = (
+				BE7061992B35F6E000D75B5A /* AppDelegate.swift */,
+				BE70619B2B35F6E000D75B5A /* SceneDelegate.swift */,
+				BE7061A22B35F6E100D75B5A /* Assets.xcassets */,
+				BE7061A42B35F6E100D75B5A /* LaunchScreen.storyboard */,
+				BE7061A72B35F6E100D75B5A /* Info.plist */,
+			);
+			path = Applications;
+			sourceTree = "<group>";
+		};
+		BE977D272B3789890027F68C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				BE977D342B37931D0027F68C /* Views */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		BE977D342B37931D0027F68C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BE977D352B37938A0027F68C /* InputView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BE977D352B37938A0027F68C /* InputView */ = {
+			isa = PBXGroup;
+			children = (
+				BE977D362B37939E0027F68C /* InputView.swift */,
+				BE977D382B3793A70027F68C /* InputView.xib */,
+			);
+			path = InputView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BE7061952B35F6E000D75B5A /* swag */ = {
+		BE7061952B35F6E000D75B5A /* Swag */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BE7061AA2B35F6E100D75B5A /* Build configuration list for PBXNativeTarget "swag" */;
+			buildConfigurationList = BE7061AA2B35F6E100D75B5A /* Build configuration list for PBXNativeTarget "Swag" */;
 			buildPhases = (
 				BE7061922B35F6E000D75B5A /* Sources */,
 				BE7061932B35F6E000D75B5A /* Frameworks */,
@@ -108,9 +122,9 @@
 			);
 			dependencies = (
 			);
-			name = swag;
+			name = Swag;
 			productName = swag;
-			productReference = BE7061962B35F6E000D75B5A /* swag.app */;
+			productReference = BE7061962B35F6E000D75B5A /* Swag.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -128,7 +142,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BE7061912B35F6E000D75B5A /* Build configuration list for PBXProject "swag" */;
+			buildConfigurationList = BE7061912B35F6E000D75B5A /* Build configuration list for PBXProject "Swag" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -141,7 +155,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BE7061952B35F6E000D75B5A /* swag */,
+				BE7061952B35F6E000D75B5A /* Swag */,
 			);
 		};
 /* End PBXProject section */
@@ -151,10 +165,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE7061E12B35F9F000D75B5A /* LoginViewController.xib in Resources */,
 				BE7061A62B35F6E100D75B5A /* LaunchScreen.storyboard in Resources */,
 				BE7061A32B35F6E100D75B5A /* Assets.xcassets in Resources */,
-				BE7061A12B35F6E000D75B5A /* Main.storyboard in Resources */,
+				BE977D392B3793A70027F68C /* InputView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,13 +178,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE7061DE2B35F9F000D75B5A /* LoginViewController.swift in Sources */,
-				BE7061DF2B35F9F000D75B5A /* LoginProtocols.swift in Sources */,
-				BE7061DC2B35F9F000D75B5A /* LoginPresenter.swift in Sources */,
-				BE70619E2B35F6E000D75B5A /* ViewController.swift in Sources */,
-				BE7061E02B35F9F000D75B5A /* LoginInteractor.swift in Sources */,
+				BE977D372B37939E0027F68C /* InputView.swift in Sources */,
 				BE70619A2B35F6E000D75B5A /* AppDelegate.swift in Sources */,
-				BE7061DD2B35F9F000D75B5A /* LoginRouter.swift in Sources */,
 				BE70619C2B35F6E000D75B5A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -179,14 +187,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BE70619F2B35F6E000D75B5A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BE7061A02B35F6E000D75B5A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BE7061A42B35F6E100D75B5A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -326,7 +326,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K82JX78JRB;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = swag/Info.plist;
+				INFOPLIST_FILE = Swag/Applications/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -354,7 +355,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K82JX78JRB;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = swag/Info.plist;
+				INFOPLIST_FILE = Swag/Applications/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -376,7 +378,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BE7061912B35F6E000D75B5A /* Build configuration list for PBXProject "swag" */ = {
+		BE7061912B35F6E000D75B5A /* Build configuration list for PBXProject "Swag" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BE7061A82B35F6E100D75B5A /* Debug */,
@@ -385,7 +387,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BE7061AA2B35F6E100D75B5A /* Build configuration list for PBXNativeTarget "swag" */ = {
+		BE7061AA2B35F6E100D75B5A /* Build configuration list for PBXNativeTarget "Swag" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BE7061AB2B35F6E100D75B5A /* Debug */,
